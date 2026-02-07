@@ -1,9 +1,9 @@
 # Urban Mobility & Traffic Analysis (Python)
 
 ## 📌 Contexto
-Este proyecto forma parte del bootcamp de **Data Analysis de TripleTen** y tiene como objetivo analizar datos de movilidad urbana y tráfico para identificar patrones, tendencias y posibles áreas de mejora en la gestión del tránsito.
+Este proyecto forma parte del bootcamp de **Data Analysis de TripleTen** y consiste en un análisis exploratorio de datos de movilidad urbana y tráfico.
 
-El enfoque del proyecto es **analítico y exploratorio**, simulando un escenario real donde los datos presentan inconsistencias, valores faltantes y la necesidad de tomar decisiones metodológicas.
+El proyecto utiliza **datasets propietarios integrados en la plataforma educativa de TripleTen**, los cuales están disponibles únicamente dentro de su entorno de Jupyter Notebook.
 
 ---
 
@@ -11,21 +11,21 @@ El enfoque del proyecto es **analítico y exploratorio**, simulando un escenario
 Analizar datos de tráfico urbano para:
 - Comprender patrones de movilidad
 - Identificar comportamientos atípicos
-- Generar insights que puedan apoyar la toma de decisiones en contextos urbanos
+- Extraer insights relevantes para la gestión del tránsito urbano
 
 ---
 
 ## 🧠 Enfoque analítico
-El análisis sigue las siguientes etapas:
+El análisis se desarrolló siguiendo un flujo típico de análisis de datos:
 
-1. **Carga y exploración inicial de datos**
+1. **Exploración inicial del dataset**
 2. **Limpieza de datos**
    - Manejo de valores nulos
    - Corrección de tipos de datos
-   - Eliminación o tratamiento de duplicados
+   - Identificación y tratamiento de duplicados
 3. **Análisis exploratorio (EDA)**
    - Distribuciones
-   - Comparaciones entre variables
+   - Comparación de variables
    - Visualización de patrones relevantes
 4. **Conclusiones e insights**
 
@@ -36,17 +36,30 @@ El análisis sigue las siguientes etapas:
 - Pandas
 - NumPy
 - Matplotlib / Seaborn
-- Jupyter Notebook (Google Colab)
+- Jupyter Notebook (entorno TripleTen)
 
 ---
 
 ## 📊 Resultados principales
-Algunos de los hallazgos incluyen:
-- Identificación de patrones de tráfico en determinados periodos
-- Detección de valores atípicos que pueden indicar errores de registro o eventos especiales
-- Relación entre variables clave del dataset
+Entre los hallazgos más relevantes se incluyen:
+- Identificación de patrones temporales en el tráfico urbano
+- Detección de valores atípicos que pueden corresponder a errores de registro o eventos específicos
+- Relaciones relevantes entre variables clave del dataset
 
-> Los resultados se presentan mediante visualizaciones y tablas explicativas dentro del notebook.
+Los resultados se presentan mediante visualizaciones y tablas explicativas dentro del notebook.
+
+---
+
+## 🔒 Nota sobre los datos y ejecución
+Los datasets utilizados en este proyecto forman parte de la **biblioteca interna de TripleTen** y no se distribuyen públicamente.
+
+Por esta razón:
+- El notebook **no es completamente reproducible fuera del entorno de TripleTen**
+- El repositorio se presenta como **caso de estudio analítico**, enfocado en:
+  - Estructura del análisis
+  - Limpieza de datos
+  - Uso de visualizaciones
+  - Interpretación de resultados
 
 ---
 
